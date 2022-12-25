@@ -2,6 +2,8 @@
 
 require_once './../vendor/autoload.php';
 
+require_once './secret/secret.php';
+
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\PHPMailer;
@@ -17,17 +19,17 @@ try {
     //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();
     $mail->CharSet = 'UTF-8';
-    $mail->Host = 'smtp.mail.ru';
+    $mail->Host = MAIL_HOST;
     $mail->SMTPAuth = true;
-    $mail->Username = 'leha.lozhkin.02@mail.ru';
-    $mail->Password = 'ZAyrpjcptjCLcUXrGMvw';
+    $mail->Username = MAIL_NAME;
+    $mail->Password = MAIL_PASS;
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port = 465;    
 
-    $mail->From = 'leha.lozhkin.02@mail.ru';
+    $mail->From = MAIL_NAME;
     $mail->FromName = 'leha';
 
-    $mail->addAddress('leha.lozhkin.02@mail.ru');
+    $mail->addAddress(MAIL_NAME);
 
     $mail->isHTML(false);
 

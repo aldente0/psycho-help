@@ -9,5 +9,14 @@
             "rm -rf public/bootstrap",
             "cp -R vendor/twbs/bootstrap/dist src/bootstrap"
         ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Public\\": "public/",
+            "App\\": "app/"
+        },
+        "psr-0": {
+            "Public\\Pages\\": "public/pages/"
+        }
     }
 }
