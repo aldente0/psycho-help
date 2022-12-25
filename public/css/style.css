@@ -1,0 +1,245 @@
+* {
+    font-family: "Larsseit" sans-serif;
+}
+
+body {
+    padding-top: 30px;
+}
+
+.upheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.tel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.tel-icon {
+    width: 50px;
+}
+
+.tel-text {
+    font-size: 14px;
+}
+
+.tel-number {
+    font-size: 22px;
+}
+
+.upheader-area__button {
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-link, .footer-middle__link {
+    font-size: 18px;
+}
+
+.offer {
+    padding-top: 50px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card-image {
+    max-height: 250px;
+}
+
+.card-body__text {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height: 250px;
+    align-items: start;
+    max-width: 700px;
+}
+
+.card-body__image {
+    max-width: 400px;
+}
+
+.services-options {
+    height: 500px;
+}
+
+.carousel-item__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.map {
+    padding-top: 50px;
+}
+
+.about {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-main {
+    max-width: 600px;
+}
+
+.about-main::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 4px;
+    height: 100%;
+    background-color: black;
+    right: 51%;
+    top: 10px;
+}
+
+.about-addittialy {
+    max-width: 600px;
+}
+
+.about-history {
+    margin-bottom: 20px;
+}
+
+.promo {
+    padding-top: 50px;
+}
+
+.main-header {
+    margin-bottom: 30px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-soc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 18px;
+}
+
+.footer-icon {
+    max-width: 70px;
+}
+
+.footer-number, .footer-middle__link {
+    text-decoration: none !important;
+}
+
+.footer-number:hover, .footer-link:hover, .footer-middle__link {
+    text-decoration: underline !important;
+}
+
+.mod {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(15, 16, 17, 0.2);
+}
+
+.mod_hidden {
+    display: none;
+}
+
+.form, .success-mod {
+    display: block;
+    z-index: 5;
+    background: rgb(250, 250, 250);
+    border-radius: 8px;
+    border: 2px black solid;
+    width: 700px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    margin-top: 20%;
+    transform: translateY(-50%);
+}
+
+.success-mod {
+    width: 600px;
+}
+
+.form_hidden {
+    display: none;
+}
+
+.success-mod_hidden {
+    display: none;
+}
+
+.error {
+    display: block;
+    color: red;
+}
+
+.error_hidden {
+    display: none;
+}
+
+.mod-input {
+    display: block;
+}
+
+.form-error {
+    display: none;
+}
+
+@font-face {
+    font-family: "Larsseit"; 
+    src: url("../fonts/Larsseit.eot"); 
+    src: url("../fonts/Lastsseit.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Larsseit.woff") format("woff"), 
+    url("../fonts/larsseit_regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 400; 
+    }
+    
+    
